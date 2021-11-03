@@ -24,7 +24,7 @@ The lose patterns.txt file is formatted as a list with p lines, where p is the n
 2 piles with 1 object each).
 
 ## Contributors
-Michael Lane and Liam O'Brien are the other two contributors on this project.
+Michael Lane and Liam O'Brien are the other contributors on this project.
 
 ## Contributing
 Contributions are welcome. For major changes, please open an issue first to discuss the ideas you would like to implement.
