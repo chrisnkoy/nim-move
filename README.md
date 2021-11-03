@@ -2,14 +2,14 @@
 Generates the best move possible given a game state in the game of nim
 
 ## Introduction
-This program was written for a Data Structures II course's final team project. The goal was to design and implement an algorithm that plays a version of the game of [Nim](https://en.wikipedia.org/wiki/Nim) optimally. The program generates the best possible move. It takes as inputs two files: one that contains the game state and one that contains the game constraints. In this instance the game state input file is called game_state.txt and the game constraints file is called lose_patterns.txt.
+This program was written for a Data Structures II course's final team project. The goal was to design and implement an algorithm that plays a version of the game of [Nim](https://en.wikipedia.org/wiki/Nim) optimally. The program generates the best possible move. It takes as inputs two files: one that contains the game state and one that contains the game constraints. In this instance the game state input file is called ```game_state.txt``` and the game constraints file is called ```lose_patterns.txt```.
 
 ## Setup
 If not already installed, install [Python](https://www.python.org/downloads/) on your computer. Save the source code with the two input files in the same directory on your computer. 
 
 ## Usage
-On your CLI run the following command ``` bash python nim_move.py game_state.txt lose_patterns.txt ```
-Note that while game_state.txt will be modified througout the progression of the game, lose_patterns.txt should only be changed before the game starts and should conform to the game constraints. Here is how the two files are structured.
+On your CLI run the following command ``` python nim_move.py game_state.txt lose_patterns.txt ```
+Note that while ``` game_state.txt ``` will be modified througout the progression of the game, ``` lose_patterns.txt ``` should only be changed before the game starts and should conform to the game constraints. Here is how the two files are structured.
 
 ### game_state.txt
 The game state.txt file is formatted as a list with h lines, where h is the number of
